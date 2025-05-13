@@ -16,28 +16,28 @@
     <EditText
         android:id="@+id/editTextName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="이름을 입력하세요"
         android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextAge"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="나이를 입력하세요"
         android:inputType="number" />
 
     <EditText
         android:id="@+id/editTextHobby"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="취미를 입력하세요"
         android:inputType="text" />
 
     <Button
         android:id="@+id/buttonSaveProfile"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:text="저장하기"
         android:layout_marginTop="24dp" />
 </LinearLayout>
